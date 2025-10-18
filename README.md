@@ -99,6 +99,6 @@ Source: [Microsoft AdventureWorks Sample Database](https://learn.microsoft.com/e
 License: Microsoft Sample Data License
 
 ## Support
-If you have any Doubts,queries or Suggestions, please Connect with me on [LinkedIn](www.linkedin.com/in/twinkal-kosada-4909ba266/)
+If you have any Doubts,queries or Suggestions, please Connect with me on [LinkedIn](https://www.linkedin.com/in/twinkal-kosada-4909ba266/)
 
 

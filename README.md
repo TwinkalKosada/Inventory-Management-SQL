@@ -37,6 +37,13 @@ EER Diagram:
 | `EER_Diagram.png` | ERD diagram image |
 | `data/` | CSV files for data import |
 
+## Data Cleaning & Preparation
+
+- Adjusted column formats to match SQL data types (e.g., converting dates to `YYYY-MM-DD`, ensuring decimal precision).  
+- Removed unnecessary columns and standardized null values.  
+- Validated foreign key columns to maintain referential integrity.  
+- Ensured consistency between related tables (e.g., product and inventory tables).
+
 ---
 
 ## How to Set Up the Database
@@ -72,7 +79,7 @@ EER Diagram:
    
 3. Refresh your schema to confirm the data is loaded successfully.
 
-##Learning Outcomes
+## Learning Outcomes
 
 Designing a normalized inventory management schema
 
@@ -81,4 +88,17 @@ Creating relationships between product, stock, and order tables
 Importing large CSV datasets into MySQL
 
 Writing analytical queries for inventory metrics
+
+## Data Source
+
+This project uses the AdventureWorks sample database provided by Microsoft as the primary data source.
+AdventureWorks is a publicly available sample database designed for learning and demonstration purposes.
+
+Source: [Microsoft AdventureWorks Sample Database](https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver17&tabs=ssms)
+
+License: Microsoft Sample Data License
+
+## Support
+If you have any Doubts,queries or Suggestions, please Connect with me on [LinkedIn](www.linkedin.com/in/twinkal-kosada-4909ba266)
+
 

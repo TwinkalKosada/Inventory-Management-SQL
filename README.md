@@ -56,17 +56,14 @@ EER Diagram:
    - Select **“Table Data Import Wizard”**
    - Browse and select the matching CSV file from the `data` folder
    - Click **Next** → check column mapping → **Next** → **Finish**
-
-   | Table Name             | CSV File                     |
-   |-------------------------|-------------------------------|
-   | ProductCategory         | ProductCategory.csv          |
-   | ProductSubcategory      | ProductSubcategory.csv       |
-   | Product                 | Product.csv                  |
-   | Location                | Location.csv                 |
-   | ProductInventory        | ProductInventory.csv         |
-   | SalesOrderHeader        | SalesOrderHeader.csv        |
-   | SalesOrderDetail        | SalesOrderDetail.csv        |
-
+   
+    | ProductCategory         | [ProductCategory.csv](./data/ProductCategory.csv) |
+| ProductSubcategory      | [ProductSubcategory.csv](./data/ProductSubcategory.csv) |
+| Product                 | [Product.csv](./data/Product.csv) |
+| Location                | [Location.csv](./data/Location.csv) |
+| ProductInventory        | [ProductInventory.csv](./data/ProductInventory.csv) |
+| SalesOrderHeader        | [SalesOrderHeader.csv](./data/SalesOrderHeader.csv) |
+| SalesOrderDetail        | [SalesOrderDetail.csv](./data/SalesOrderDetail.csv) |
    📌 *Note: Make sure you import data in the correct order to avoid foreign key conflicts (e.g., category → subcategory → product → others).*
    
 4. Refresh your schema to confirm the data is loaded successfully.

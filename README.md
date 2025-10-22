@@ -11,6 +11,22 @@ It uses structured data to model products, categories, stock levels, locations, 
 - CSV Import – real data population
 - GitHub – version control and documentation
 
+ ## Business Insights
+
+This project is designed to turn raw inventory and sales data into practical insights that help businesses manage stock more efficiently and make better decisions.
+
+Product Overview: Gives a clear picture of all products, their categories, and current stock levels. Useful for tracking what’s in inventory.
+
+Customer Orders: Shows what customers are buying and when. Helps identify demand trends and top-selling products.
+
+Reorder Alerts: Highlights products that are running low, so they can be restocked before they run out.
+
+Monthly Trends: Reveals which months and customers drive the most orders, supporting smarter planning and forecasting.
+
+Inventory Turnover: Identifies fast- and slow-moving products, helping reduce overstock and optimize storage.
+
+Stock Update: Allows real-time stock adjustments to keep inventory records accurate.
+
 ---
 
 ## Database Schema Overview
@@ -24,6 +40,7 @@ The database includes the following tables:
 
 EER Diagram:  
 ![EER Diagram](images/EER_Diagram.png)
+
 
 ---
 
